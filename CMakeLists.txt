@@ -1,7 +1,7 @@
 ### CMakeLists automatically created with AutoVala
 ### Do not edit
 
-project (secondchance)
+project (SecondChance)
 cmake_minimum_required (VERSION 2.6)
 cmake_policy (VERSION 2.8)
 list (APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
@@ -41,6 +41,7 @@ set(MODULES_TO_CHECK ${MODULES_TO_CHECK} gobject-2.0)
 set(MODULES_TO_CHECK ${MODULES_TO_CHECK} granite)
 set(MODULES_TO_CHECK ${MODULES_TO_CHECK} gtk+-3.0)
 set(MODULES_TO_CHECK ${MODULES_TO_CHECK} pango)
+set(MODULES_TO_CHECK ${MODULES_TO_CHECK} pangocairo)
 set(MODULES_TO_CHECK ${MODULES_TO_CHECK} x11)
 
 pkg_check_modules(DEPS REQUIRED ${MODULES_TO_CHECK})
@@ -48,9 +49,9 @@ pkg_check_modules(DEPS REQUIRED ${MODULES_TO_CHECK})
 add_subdirectory(src)
 add_subdirectory(po)
 add_subdirectory(data/icons/32)
-add_subdirectory(data/icons/24)
 add_subdirectory(data/icons/256)
 add_subdirectory(data/icons/64)
+add_subdirectory(data/icons/scalable)
 add_subdirectory(data/icons/16)
 add_subdirectory(data/icons/48)
 

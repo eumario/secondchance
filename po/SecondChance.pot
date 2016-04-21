@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-21 01:21-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/components/gui/MainWindow.vala:29
+msgid "Settings"
+msgstr ""
+
+#: src/components/gui/NewTaskPanel.vala:8
+msgid "None"
+msgstr ""
+
+#: src/components/gui/NewTaskPanel.vala:9
+msgid "Low (GZip)"
+msgstr ""
+
+#: src/components/gui/NewTaskPanel.vala:10
+msgid "Medium (BZip2)"
+msgstr ""
+
+#: src/components/gui/NewTaskPanel.vala:11
+msgid "High (LZMA)"
+msgstr ""
+
+#: src/components/gui/NewTaskPanel.vala:15
+msgid "USB Flash"
+msgstr ""
+
+#: src/components/gui/NewTaskPanel.vala:16
+msgid "Burn to CD/DVD..."
+msgstr ""
+
+#: src/components/gui/NewTaskPanel.vala:17
+msgid "Select Folder..."
+msgstr ""
+
+#: src/components/gui/NewTaskPanel.vala:51
+msgid "Enter name of task..."
+msgstr ""
+
+#: src/components/gui/NewTaskPanel.vala:74
+msgid "Destionation:"
+msgstr ""
+
+#: src/components/gui/NoTask.vala:11
+msgid "No Tasks available"
+msgstr ""
+
+#: src/components/gui/NoTask.vala:21
+msgid "Add Task"
+msgstr ""
+
+#: src/components/gui/NoTask.vala:21
+msgid "Or drop files"
+msgstr ""
+
+#: src/components/gui/NoTask.vala:25
+msgid "Add Files & Folders"
+msgstr ""
+
+#: src/components/gui/NoTask.vala:25
+msgid "to backup task"
+msgstr ""

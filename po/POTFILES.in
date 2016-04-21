@@ -1,5 +1,10 @@
 src/components/core/SCAri-Exceptions.vala
 src/components/core/SCAri.vala
 src/components/gui/MainWindow.vala
+src/components/gui/NewTaskPanel.vala
 src/components/gui/NoTask.vala
+src/components/gui/widgets/OptionButton.vala
+src/components/gui/widgets/StylizedList.vala
+src/components/gui/widgets/StylizedRow.vala
+src/components/gui/widgets/WizardPanel.vala
 src/secondchance.vala

@@ -20,11 +20,17 @@ vala_check_package: libarchive
 *vala_check_package: granite
 *vala_check_package: gtk+-3.0
 *vala_check_package: pango
+*vala_check_package: pangocairo
 *vala_check_package: x11
 *vala_source: components/core/SCAri-Exceptions.vala
 *vala_source: components/core/SCAri.vala
 *vala_source: components/gui/MainWindow.vala
+*vala_source: components/gui/NewTaskPanel.vala
 *vala_source: components/gui/NoTask.vala
+*vala_source: components/gui/widgets/OptionButton.vala
+*vala_source: components/gui/widgets/StylizedList.vala
+*vala_source: components/gui/widgets/StylizedRow.vala
+*vala_source: components/gui/widgets/WizardPanel.vala
 *vala_source: secondchance.vala
 
 *po: po
@@ -33,12 +39,20 @@ vala_check_package: libarchive
 
 *doc: doc
 
-*full_icon: Hicolor Applications data/icons/16/ham_icon.png
-*full_icon: Hicolor Applications data/icons/16/secondchance.png
-*full_icon: Hicolor Applications data/icons/24/ham_icon.png
-*full_icon: Hicolor Applications data/icons/256/secondchance.png
-*full_icon: Hicolor Applications data/icons/32/ham_icon.png
-*full_icon: Hicolor Applications data/icons/32/secondchance.png
-*full_icon: Hicolor Applications data/icons/48/secondchance.png
-*full_icon: Hicolor Applications data/icons/64/secondchance.png
+full_icon: Hicolor Applications data/icons/16/secondchance.png
+full_icon: Hicolor Applications data/icons/256/secondchance.png
+full_icon: Hicolor Applications data/icons/32/secondchance.png
+full_icon: Hicolor Applications data/icons/48/secondchance.png
+full_icon: Hicolor Applications data/icons/64/secondchance.png
+full_icon: Hicolor Actions data/icons/scalable/sc_add.svg
+full_icon: Hicolor Actions data/icons/scalable/sc_add_blue.svg
+full_icon: Hicolor Actions data/icons/scalable/sc_apply.svg
+full_icon: Hicolor Actions data/icons/scalable/sc_cancel.svg
+full_icon: Hicolor Actions data/icons/scalable/sc_document-open.svg
+full_icon: Hicolor Actions data/icons/scalable/sc_ham.svg
+full_icon: Hicolor Actions data/icons/scalable/sc_list-remove.svg
+full_icon: Hicolor Actions data/icons/scalable/sc_menu_new.svg
+full_icon: Hicolor Actions data/icons/scalable/sc_menu_properties.svg
+full_icon: Hicolor Actions data/icons/scalable/sc_open.svg
+full_icon: Hicolor Actions data/icons/scalable/sc_start.svg
 

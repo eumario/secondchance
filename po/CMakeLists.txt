@@ -2,5 +2,5 @@
 ### Do not edit
 
 include (Translations)
-add_translations_directory("secondchance")
-add_translations_catalog("secondchance" ../src )
+add_translations_directory("SecondChance")
+add_translations_catalog("SecondChance" ../src )

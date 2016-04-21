@@ -2,9 +2,9 @@
 ### Do not edit
 
 set (DATADIR "${CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_DATAROOTDIR}")
-set (PKGDATADIR "${DATADIR}/secondchance")
-set (GETTEXT_PACKAGE "secondchance")
-set (RELEASE_NAME "secondchance")
+set (PKGDATADIR "${DATADIR}/SecondChance")
+set (GETTEXT_PACKAGE "SecondChance")
+set (RELEASE_NAME "SecondChance")
 set (CMAKE_C_FLAGS "")
 set (PREFIX ${CMAKE_INSTALL_PREFIX})
 set (VERSION "0.0.1")
@@ -36,13 +36,19 @@ set (VALA_PACKAGES ${VALA_PACKAGES} gobject-2.0)
 set (VALA_PACKAGES ${VALA_PACKAGES} granite)
 set (VALA_PACKAGES ${VALA_PACKAGES} gtk+-3.0)
 set (VALA_PACKAGES ${VALA_PACKAGES} pango)
+set (VALA_PACKAGES ${VALA_PACKAGES} pangocairo)
 set (VALA_PACKAGES ${VALA_PACKAGES} x11)
 
 set (APP_SOURCES ${APP_SOURCES} ${CMAKE_CURRENT_BINARY_DIR}/Config.vala)
 set (APP_SOURCES ${APP_SOURCES} components/core/SCAri-Exceptions.vala)
 set (APP_SOURCES ${APP_SOURCES} components/core/SCAri.vala)
 set (APP_SOURCES ${APP_SOURCES} components/gui/MainWindow.vala)
+set (APP_SOURCES ${APP_SOURCES} components/gui/NewTaskPanel.vala)
 set (APP_SOURCES ${APP_SOURCES} components/gui/NoTask.vala)
+set (APP_SOURCES ${APP_SOURCES} components/gui/widgets/OptionButton.vala)
+set (APP_SOURCES ${APP_SOURCES} components/gui/widgets/StylizedList.vala)
+set (APP_SOURCES ${APP_SOURCES} components/gui/widgets/StylizedRow.vala)
+set (APP_SOURCES ${APP_SOURCES} components/gui/widgets/WizardPanel.vala)
 set (APP_SOURCES ${APP_SOURCES} secondchance.vala)
 
 vala_precompile(VALA_C secondchance
@@ -71,6 +77,6 @@ if(HAVE_VALADOC)
 	install(DIRECTORY
 		${CMAKE_BINARY_DIR}/valadoc
 	DESTINATION
-		${CMAKE_INSTALL_DATAROOTDIR}/doc/secondchance
+		${CMAKE_INSTALL_DATAROOTDIR}/doc/SecondChance
 	)
 endif()

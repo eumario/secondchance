@@ -3,6 +3,7 @@
 
 using GLib;
 using Granite;
+using Granite.Widgets;
 using Gtk;
 using Archive;
 
@@ -10,7 +11,7 @@ using Archive;
 namespace SecondChance {
 	public class SecondChanceApp : Granite.Application {
 		private MainWindow window;
-		private Widgets.AppMenu appMenu;
+		private AppMenu appMenu;
 
 		static SecondChanceApp _instance;
 		public static SecondChanceApp instance { get { return _instance; } }
@@ -52,7 +53,7 @@ namespace SecondChance {
 			}
 		}
 
-		public Widgets.AppMenu get_appMenu() {
+		public AppMenu get_appMenu() {
 			if (appMenu == null) {
 				appMenu = create_appmenu(new Gtk.Menu());
 			}

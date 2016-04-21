@@ -7,13 +7,13 @@ foreach(file_data ${list_data})
 		install(DIRECTORY
 			${file_data}
 		DESTINATION
-			${CMAKE_INSTALL_DATAROOTDIR}/doc/secondchance
+			${CMAKE_INSTALL_DATAROOTDIR}/doc/SecondChance
 		)
 	ELSE()
 		install(FILES
 			${file_data}
 		DESTINATION
-			${CMAKE_INSTALL_DATAROOTDIR}/doc/secondchance
+			${CMAKE_INSTALL_DATAROOTDIR}/doc/SecondChance
 		)
 	ENDIF()
 endforeach()
