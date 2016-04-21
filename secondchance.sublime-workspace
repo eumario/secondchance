@@ -1,0 +1,373 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"_",
+				"_compression"
+			],
+			[
+				"on",
+				"on_add_task"
+			],
+			[
+				"sta",
+				"StatusBar"
+			],
+			[
+				"Entry",
+				"EntryIconPosition"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/components/gui/NewTaskPanel.vala",
+			"settings":
+			{
+				"buffer_size": 4737,
+				"line_ending": "Unix",
+				"name": "namespace SecondChance.Widgets {"
+			}
+		},
+		{
+			"file": "src/components/gui/MainWindow.vala",
+			"settings":
+			{
+				"buffer_size": 1971,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "import sublime, sublime_plugin\n\nclass ExampleCommand(sublime_plugin.TextCommand):\n	def run(self, edit):\n		self.view.insert(edit, 0, \"Hello, World!\")\n",
+			"settings":
+			{
+				"buffer_size": 149,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 33.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 132.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/eumario/Projects/vala/secondchance",
+		"/home/eumario/Projects/vala/secondchance/build",
+		"/home/eumario/Projects/vala/secondchance/src",
+		"/home/eumario/Projects/vala/secondchance/src/components"
+	],
+	"file_history":
+	[
+		"/home/eumario/Projects/vala/secondchance/src/components/gui/NewTaskDialog.vala",
+		"/home/eumario/Projects/vala/secondchance/src/components/gui/NoTask.vala",
+		"/home/eumario/Projects/vala/secondchance/src/components/gui/widgets/WizardPanel.vala",
+		"/home/eumario/Projects/vala/secondchance/src/components/gui/widgets/StylizedRow.vala",
+		"/home/eumario/Projects/vala/secondchance/src/components/gui/widgets/StylizedList.vala",
+		"/home/eumario/Projects/vala/secondchance/src/components/gui/widgets/OptionButton.vala",
+		"/home/eumario/Projects/vala/secondchance/secondchance.avprj",
+		"/home/eumario/Projects/vala/secondchance/build/new_task_dialog.ui",
+		"/home/eumario/Projects/vala/secondchance/src/components/gui/MainWindow.vala",
+		"/home/eumario/Projects/vala/secondchance/src/secondchance.vala",
+		"/home/eumario/Projects/vala/secondchance/src/components/core/SCAri.vala",
+		"/home/eumario/Projects/vala/dnd/dnd.vala",
+		"/home/eumario/Projects/vala/secondchance/examples/welcome.vala",
+		"/home/eumario/Projects/vala/secondchance/examples/welcome-button.vala",
+		"/home/eumario/Projects/vala/secondchance/examples/warsi-archive.vala",
+		"/home/eumario/Projects/vala/secondchance/src/components/core/SCAri-Exceptions.vala",
+		"/home/eumario/Projects/vala/activity_monitor/src/components/gui/MainWindow.vala",
+		"/home/eumario/Projects/vala/activity_monitor/src/ActivityMonitor.vala",
+		"/home/eumario/Projects/vala/activity_monitor/src/components/core/Process.vala",
+		"/home/eumario/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/eumario/Projects/vala/activity_monitor/src/components/core/ProcInfo.vala",
+		"/home/eumario/Projects/vala/mpstark-monitor/src/elementarySystemMonitor.vala",
+		"/home/eumario/Projects/vala/mpstark-monitor/src/Models/ApplicationProcessModel.vala",
+		"/home/eumario/Projects/vala/mpstark-monitor/src/ProcessMonitor/ProcessMonitor.vala",
+		"/home/eumario/Projects/vala/mpstark-monitor/src/ProcessMonitor/Process.vala",
+		"/home/eumario/Projects/vala/activity_monitor/activity_monitor.avprj",
+		"/home/eumario/Projects/vala/activity_monitor/src/WnckResolver.vala",
+		"/home/eumario/Projects/vala/activity_monitor/src/Config.vala.cmake",
+		"/home/eumario/Projects/vala/activity_monitor/src/procinfo.vala",
+		"/home/eumario/Projects/vala/activity_monitor/src/activity_monitor.vala",
+		"/home/eumario/Projects/vala/activity_monitor/CMakeLists.txt",
+		"/home/eumario/Projects/vala/activity_monitor/src/MainWindow.vala",
+		"/home/eumario/Projects/vala/gmenu/gmenu.vala",
+		"/home/eumario/Projects/vala/activity_monitor/src/vapis/libgtop-2.0.vapi",
+		"/home/eumario/Projects/vala/activity_monitor/activity_monitor.sublime-workspace",
+		"/home/eumario/Projects/vala/activity_monitor/src/TaskView.vala",
+		"/home/eumario/Projects/vala/activity_monitor/src/TaskView.vala.old",
+		"/home/eumario/Projects/vala/activity_monitor/CMakeCache.txt",
+		"/home/eumario/Projects/vala/activity_monitor/src/Config.vala",
+		"/home/eumario/Projects/vala/activity_monitor/src/main.vala",
+		"/home/eumario/Projects/ruby/rubydevelop/ide/bin/rubydevelop"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/eumario/Projects/vala/secondchance/src",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cancel",
+			"add",
+			"ham",
+			"ham_icon",
+			"ListBox",
+			"exists(",
+			"set_hint",
+			"default",
+			"{\n",
+			"glibtop_proclist",
+			"glibtop_Proclist",
+			"glibtop_proclist",
+			"glibtop_proc_state",
+			"glibtop_get_cpu",
+			"glibtop_get_proclist",
+			"glibtop_proclist",
+			"glibtop_get_proclist",
+			"thread",
+			"glibtop_cpu",
+			"glibtop_proc_state",
+			"GTop.glibtop_proc_state",
+			"glibtop_get_proc_state",
+			"glibtop_get_parameter_l",
+			"glibtop_get_parameter",
+			"glibtop_proclist",
+			"glibtop_init"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"set_tooltip_text"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/components/gui/NewTaskPanel.vala",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4737,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3812,
+								3812
+							]
+						],
+						"settings":
+						{
+							"auto_name": "namespace SecondChance.Widgets {",
+							"syntax": "Packages/Vala/Syntaxes/Vala.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2156.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/components/gui/MainWindow.vala",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1971,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1136,
+								1136
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Vala/Syntaxes/Vala.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 208.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								106,
+								106
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/home/eumario/.config/sublime-text-3/Packages/User",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "secondchance.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/home/eumario/Projects/vala/activity_monitor/activity_monitor.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
