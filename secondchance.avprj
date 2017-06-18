@@ -1,8 +1,7 @@
 ### AutoVala Project ###
-autovala_version: 19
+autovala_version: 24
 project_name: SecondChance
-*vala_version: 0.28
-
+*vala_version: 0.34
 
 vala_binary: src/secondchance
 *version: 0.0.1
@@ -33,7 +32,19 @@ vala_check_package: libarchive
 *vala_source: components/gui/widgets/WizardPanel.vala
 *vala_source: secondchance.vala
 
+
 *po: po
+
+*translate: vala src/components/core/SCAri-Exceptions.vala
+*translate: vala src/components/core/SCAri.vala
+*translate: vala src/components/gui/MainWindow.vala
+*translate: vala src/components/gui/NewTaskPanel.vala
+*translate: vala src/components/gui/NoTask.vala
+*translate: vala src/components/gui/widgets/OptionButton.vala
+*translate: vala src/components/gui/widgets/StylizedList.vala
+*translate: vala src/components/gui/widgets/StylizedRow.vala
+*translate: vala src/components/gui/widgets/WizardPanel.vala
+*translate: vala src/secondchance.vala
 
 *data: data/local
 
